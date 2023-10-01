@@ -1,0 +1,33 @@
+.header-c1{
+    background-color: #d65a31;
+}
+
+.b-c1{
+    background-color: #d65a31;
+    border-color: #d65a31;
+    color: #fff;
+}
+
+.b-c1 :hover{
+    border: 1px solid transparent;
+    border-color: #d65a31;
+    background-color: #fff;
+    color: #222;
+}
+
+.b-c2{
+    background-color: rgba(85, 83, 83, 0.66);
+    border-color: #d65a31;
+    color: #fff;
+}
+
+.b-c2 :hover{
+    border: 1px solid transparent;
+    border-color: rgba(85, 83, 83, 0.66);
+    background-color: #d65a31;
+    color: #222;
+}
+
+.bc27{
+    background-color: #9C6FFF;
+}

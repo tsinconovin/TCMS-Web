@@ -1,0 +1,50 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : May 31, 2021, 12:08:00 PM
+    Author     : tinco_pc14
+*/
+
+table.sticky {
+    position: relative;
+    border-collapse: separate; 
+}
+table{
+    border-collapse: separate; 
+}
+tr.sticky th {
+    background: #96b896;
+    color: black;
+}
+th.sticky {
+    cursor: pointer;
+    background: black;
+    position: sticky;
+    top: 0; /* Don't forget this, required for the stickiness */
+    background-color:#9fadce;
+    color:black;
+    z-index: 1;
+    border:1px solid black;
+}
+th.sticky {
+    cursor: pointer;
+    background: black;
+    position: sticky;
+    top: 0; /* Don't forget this, required for the stickiness */
+    right: 0;
+    background-color:#9fadce;
+    color:black;
+    z-index: 3;
+    border:1px solid black;
+}
+td.sticky {
+    cursor: pointer;
+    background: #9fadce;
+    position: sticky;
+    right: 0;
+    z-index: 2;
+    border:1px solid black;
+}

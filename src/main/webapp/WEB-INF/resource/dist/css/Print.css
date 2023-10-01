@@ -1,0 +1,546 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Apr 2, 2021, 11:48:29 PM
+    Author     : Mohammad Hossein
+*/
+@font-face {
+    font-family: B Nazanin;
+    src: url(../fonts/BNazanin.woff);
+}
+@font-face {
+    font-family: IR Nastaligh;
+    src: url(../fonts/IranNastaliq.woff);
+}
+@font-face {
+    font-family: Bank;
+    src: url(../fonts/bank.woff);
+}
+
+.print-btn{
+    width: 230mm;
+    height: 40px;
+    font-size: 14px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.env-footer {
+    width: 100% !important;
+    height: 100px !important;
+    break-after: always !important;
+}
+hr{
+    width: 100%;
+}
+
+.title{
+    float: right;
+    display: table;
+    text-align: right;
+    font-size: 17px;
+    font-weight: bold;
+    width:auto;
+}
+.bold{
+    font-weight: 800;
+}
+
+.red{
+    color:  #ff3333;
+}
+.bank{
+    font-family: 'Bank'
+}
+
+.float-left{
+    float: left;
+}
+
+.float-right{
+    float: left;
+}
+.zihessab__sign{
+    position: absolute;
+    margin-top: -30px;
+}
+
+.fish__container{
+    width: 170mm;
+    height: 260mm;
+    margin-bottom: 2.5mm;
+    margin-top: 2.5mm;
+    margin-right:auto;
+    margin-left:auto;
+    border: #afafaf 2px solid;
+    border-radius: 2px;
+}
+.fish__half{
+    height: 50%;
+    padding: 2px;
+
+}
+.fish-table{
+    float: left;
+    width: 250px;
+    height: 100px;
+    margin-left: 10px;
+}
+
+.fish-detail{
+    width: 100%;
+    text-align: right;
+    font-size: 13px;
+    border: none;
+    font-weight: 700;
+}
+
+.outer {
+    display: grid;
+    grid-template: 1fr / 1fr;
+    place-items: center;
+}
+
+.outer>* {
+    grid-column: 1 / 1;
+    grid-row: 1 / 1;
+}
+
+.outer .below {
+    z-index: 1;
+    opacity: 0.1;
+    width: 100%;
+    height: 100%;
+    opacity: 0.3;
+    color:#ff3333;
+    direction: rtl;
+    text-align: center;
+    font-size:130px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+}
+
+.outer .top {
+    z-index: 1;
+
+}
+.watermak{
+    width: inherit;
+    height: inherit;
+    opacity: 0.3;
+    color:#ff3333;
+    direction: rtl;
+    text-align: center;
+    font-size:130px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.rotate{
+    transform: rotate(40deg);
+}
+.fish__footnote{
+    float: left;
+    height: 100%;
+    margin-left: -25px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+}
+.fish__footnote__item{
+    writing-mode: vertical-rl;
+    margin: 0px;
+    font-size: 14px;
+}
+.fish-account-info
+{
+    float: right;
+    text-align: right;
+    width: 100%;
+    font-size: 16.5px;
+}
+
+.dot-border-bot{
+    border-bottom:  1px dashed #aaa;
+}
+.dot-border-top{
+    border-top:  1px dashed #aaa;
+}
+.border-bot{
+    border-bottom:  1px solid #000;
+}
+
+.frm-sign{
+    width:120px;
+    margin-bottom: -50px;
+    height: 80px;
+    margin-left: 70px;
+}
+.env-sign{
+    width:125px;
+    height: 100px;
+    position: absolute;
+    left: 140px;
+}
+.env-sign-right{
+    width:125px;
+    height: 100px;
+    position: absolute;
+    right: 80px;
+}
+.hr{
+    margin: 0px;
+    padding: 0px;
+}
+
+.env-tools
+{
+    float: right;
+    direction: rtl;
+    font-size: 14px;
+}
+.fish-tools
+{
+    float: left;
+    direction: rtl;
+    font-size: 14px;
+    width: 142px;
+}
+.fish-tools-right
+{
+    float: right;
+    direction: rtl;
+    font-size: 14px;
+    margin-right: 5px;
+    width: 142px;
+
+}
+.env-title {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: 14.5px;
+    font-weight: 100;
+    font-family:IR Nastaligh;
+    margin-top: 10px;
+}
+.fish-title {
+    text-align: center;
+    font-size: 15px;
+    font-weight: 100;
+    font-family:IR Nastaligh;
+    margin-top: 10px;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.frm-title {
+    text-align: center;
+    font-size: 17px;
+    font-weight: 100;
+}
+.sign-wrapper{
+    width:50%;display: inline;text-align: center
+}
+.fish-sign{
+    max-width: 80%;
+    height: 90px;
+    margin-bottom: -50px;
+}
+.env-logo
+{
+    float: right;
+    width: 90px;
+    margin-top: -28px;
+}
+.fish-logo
+{
+    margin-top: -19px;
+    width: 90px;
+}
+.env-qrcode
+{
+    float: right;
+    width: 90px;
+    margin-top: -110px;
+    margin-right: 20px;
+}
+.env-header
+{
+    float: right;
+    display: table;
+    text-align: right;
+    font-size: 17px;
+    font-weight: bold;
+    width: 100%;
+}
+.header
+{
+    margin-top: 0px
+}
+
+.header table{
+    direction: rtl;width: 100%
+}
+.header td{
+    width: 20% !important;max-width: 20%!important
+}
+.frm-header
+{
+    float: right;
+    display: table;
+    text-align: right;
+    font-size: 19px;
+    font-weight: bold;
+    width: 100%;
+}
+.env-content
+{
+    float: right;
+    text-align: right;
+    width: 99%;
+    font-size: 15.5px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    height: auto;
+}
+
+.frm-table
+{
+    direction: rtl;
+    text-align: center;
+    width: 100%;
+    font-size: 17px;
+
+}
+.frm-table,
+.frm-table > tbody > tr > td,
+.frm-table > tfoot > tr > td,
+.frm-table > tbody > tr > th,
+.frm-table > thead > tr > th
+{
+    border: 1px solid black;
+    font-size: 13px;
+    line-height: 1.2;
+
+}
+.table-bordered,
+.table-bordered > tbody > tr > td,
+.table-bordered > tbody > tr > th,
+.table-bordered > tfoot > tr > td,
+.table-bordered > tfoot > tr > th,
+.table-bordered > thead > tr > td,
+.table-bordered > thead > tr > th {
+    border: 1px solid #ddd;
+    padding: 5px;
+    width: 100%;
+    font-weight: 700;
+}
+
+
+.frm-table-header
+{
+    background-color: #999999
+}
+.frm-table-content__item
+{
+    background-color: #cccccc;
+}
+.env-content__item
+{
+    font-weight: 800;
+}
+.super-bold{
+    font-size: 22px;
+    font-weight: 1000;
+}
+.env-signature
+{
+    font-weight: bold;
+    float: left;
+    margin-left: -60px;
+    font-size: 17px;
+    padding-left: 80px;
+    margin-top: -20px;
+    position: relative;
+    height: 100px;
+
+}
+.frm-signature
+{
+    font-weight: bold;
+    float: right;
+    margin-left: -80px;
+    font-size: 15px;
+    width: inherit;
+    position: relative;
+
+}
+.frm-signature-table
+{
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.frm-signature-table td
+{
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 260px;
+    text-align: center;
+}
+
+.fund-frm-signature
+{
+    font-weight: bold;
+    float: right;
+    margin-left: -80px;
+    font-size: 17px;
+    padding: 20px;
+    width: 260px;
+    justify-content: center;
+
+}
+.env-signature-padding-on
+{
+
+
+}
+.env-signature-right
+{
+    font-weight: bold;
+    float: right;
+    margin-left: -80px;
+    font-size: 17px;
+    width: 300px;
+    position: relative;
+
+}
+.env-signature__item
+{
+    float: left;
+    width: 100%;
+    text-align: center;
+}
+.env-signature__item-left-align
+{
+    float: left;
+    width: 100%;
+    text-align: left;
+}
+.frm-signature__item
+{
+    float: right;
+    width: 100%;
+    text-align: center;
+    font-size: 12px;
+}
+.fund-frm-signature__item
+{
+    float: right;
+    width: 100%;
+    text-align: center;
+    margin-right: -46px;
+}
+.env-signature__hash
+{
+    font-family: bank;
+    font-size: 6.5px;
+    font-weight: 900;
+    writing-mode: vertical-rl;
+    float: left;
+    position: absolute;
+    left: 50px;
+    top: 0px;
+}
+.frm-signature__hash
+{
+    font-family: bank;
+    font-size: 7px;
+    font-weight: 900;
+    writing-mode: vertical-rl;
+    position: absolute;
+    left: 220px;
+}
+.fund-frm-signature__hash
+{
+    font-family: bank;
+    font-size: 7px;
+    font-weight: 900;
+    writing-mode: vertical-rl;
+    margin-top: 20px;
+    float: right;
+}
+.env-signature__hash-right
+{
+    font-family: bank;
+    font-size: 6.5px;
+    font-weight: 900;
+    writing-mode: vertical-rl;
+    float: right;
+    position: absolute;
+    right: 50px;
+    top: 0px;
+    height: 79px;
+}
+.shenase{
+    font-family: bank;
+    font-size: 16px;
+    font-weight: 700;
+}
+body {
+    margin-top:20px;
+    margin-right:20px;
+    background: #CCCCCC;
+    font-family: B Nazanin;
+    line-height: 1.6;
+
+}
+table, th, td {
+    border-collapse: collapse;
+
+}
+div.portrait, div.landscape {
+    margin: 10px auto;
+    padding: 10mm;
+    border: solid 1px black;
+    break-after: always;
+    background: white;
+}
+div.portrait {
+    width: 210mm;
+    height: 297mm;
+} 
+div.landscape {
+    width: 297mm;
+    height: 210mm;
+}
+@media print {
+    body {
+        background: none;
+        font-family: B Nazanin;
+        /*-ms-zoom: 1.665;*/
+    }
+    div.portrait, div.landscape {
+        margin: 0;
+        padding: 0;
+        border: none;
+        background: none;
+    }
+    div.landscape {
+        transform: rotate(270deg) translate(-276mm, 0);
+        transform-origin: 0 0;
+    }
+    .print-btn{
+        display: none;
+    }
+}
+@page {
+    margin-top: 20mm;
+}

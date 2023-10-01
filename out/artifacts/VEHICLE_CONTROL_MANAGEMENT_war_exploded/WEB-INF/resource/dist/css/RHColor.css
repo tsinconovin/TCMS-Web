@@ -1,0 +1,278 @@
+:root {
+    --bg-red : #8A7BEA;
+}
+/*black*/
+.c0{
+    color: #000;
+}
+/*//dark green*/
+.bc1{
+    background-color: #035e3f;
+}
+.c1{
+    color: #035e3f;
+}
+/*//light green*/
+.bc2{
+    /*background-color:#c0d5c0 !important;*/
+    background-color:#96b896;
+}
+.bc2:hover{
+    background-color: #35654d;
+}
+.c2{
+    color:#c0d5c0;
+}
+/*//light green*/  
+.bc3{
+     background-color:#96b896;
+    color:#000;
+}
+.bc3:hover{
+     background-color:#206a5d;
+    border-color:#96b896 !important;
+    color:#d2dcd2;
+}
+.c3{
+    color:#d2dcd2;
+}
+/*//light green*/
+.bc4{
+    background-color:#0e2f29;
+    color: #fff;
+} 
+.bc4:hover{
+    background-color:#2c917f;
+}
+.c4{
+    color:#e9f2e9;
+}
+/*//white*/
+.bc5{
+    background-color:#FFF;
+}
+.c5{
+    color:#FFF;
+}
+/*//medium green*/
+.bc6{
+    background-color:#9cb69b;
+}
+.c6{
+    color:#9cb69b;
+}
+/*dark gray*/
+.bc7{
+    background-color:#444444;
+}
+.c7{
+    color:#444444;
+}
+/*//red*/
+.bc8{background-color:#de351b;}
+.c8{color:#de351b;}
+.bc08{
+    background-color:#e33247;
+    color: #fff;
+}
+
+/*//green*/ 
+.bc9{background-color:#10c269;}
+.c9{color:#10c269;}
+
+/*blue*/
+.bc10{background-color:#2ca2bf;}
+.c10{color:#2ca2bf;}
+
+/*yellow*/
+.bc11{background-color:#e8d115;}
+.c11{color:#e8d115;}
+
+/*gray*/
+.bc12{background-color:#999999;}
+.c12{color:#999999;}
+
+
+
+/*.bc{background-color:;}
+.c{color:;}*/
+
+/*.bc{background-color:;}
+.c{color:;}*/
+.bc13{background-color: #3b5998;
+      color: #fff;
+}
+.bc14{background-color: #9966ff;
+      color: #fff;
+}
+.bc15{background-color: #ff8f61;
+}
+.bc16{background-color: #f02f2f;
+      color: #fff;
+}
+.bc17{background-color:#000;}
+.c17{color:#000;}
+
+/*.bc{background-color:;}
+.c{color:;}*/
+
+.danger-background-custom {
+    background-color: #ffcccc;
+}
+.success-background-custom {
+    background-color: #ccffcc;
+}
+.pending-background-custom {
+    background-color: #fffabf;
+}
+.bc-mosbat {
+    background-color: #90ff90;
+}
+.bc-manfi {
+    background-color: #ffcccc;
+}
+.bc-barresi {
+    background-color: #f8ff90; 
+}
+
+.hc1{
+    background-color: #8A7BEA;
+}
+.hc2{
+    background-color: #001a33;
+}
+.lc1{
+    background-color:  #6958D7;
+}
+.olc1{
+    background-color: #323232;
+    color: #fff;
+}
+
+.boxc1{
+    background-color: #CCCCCC;
+}
+.bfc1{
+    background-color: #6958D7;
+    color: #fff;
+}
+
+.bfc1:hover{
+    background-color: #323232;
+    color: #fff;
+}
+
+.hfac1{
+    background-color: #374850;
+}
+
+.bc18 {
+    color: #ffffff;
+    background-color: #660099;
+    border-color: #660099;
+}
+
+.bc18:hover{
+    border: 1px solid transparent;
+    border-color: #660099;
+    background-color: #fff;
+}
+
+.bc19 {
+    color: #fff;
+    background-color: #4141ec;
+    border-color: #4141ec;
+}
+
+.bc19:hover{
+    border: 1px solid transparent;
+    border-color: #4141ec;
+    background-color: #fff;
+}
+
+/*//gray*/
+.bc20{
+    color: #fff;
+    background-color: #c9c9c9;
+    border-color: #c9c9c9;
+}
+
+.bc20:hover{
+    border: 1px solid transparent;
+    border-color: #c9c9c9;
+    background-color: #fff;
+}
+
+/*green*/
+.bc24{
+    color: #fff;
+    background-color:#06a10e;
+    border-color: #06a10e;
+}
+
+.bc24:hover{
+    border: 1px solid transparent;
+    border-color: #06a10e;
+    background-color: #fff;
+}
+
+/*orange*/
+.bc21{
+    color: #fff;
+    background-color:#ff9900;
+    border-color:#ff9900;
+}
+
+.bc21:hover{
+    border: 1px solid transparent;
+    border-color: #ff9900;
+    background-color: #fff;
+}
+
+/*dark blue*/
+.bc22{
+    color: #fff;
+    background-color:#4AA96C;
+    border-color:#4AA96C;
+}
+
+.bc22:hover{
+    border: 1px solid transparent;
+    border-color: #4AA96C;
+    background-color: #fff;
+}
+
+/*yellow*/
+.bc23{
+    color: #000;
+    background-color:#ffde73;
+    border-color:#ffde73;
+}
+
+.bc23:hover{
+    border: 1px solid transparent;
+    border-color: #ffde73;
+    background-color: #fff;
+}
+
+.input-border-error {
+    border: 2px solid red !important;
+}
+
+/*//dark blue*/
+.bc1{
+    background-color:#222831;
+}
+
+/*yello*/
+.bc25{
+    color: #fff;
+    background-color:#6958D7;
+    border-color:#6958D7;
+}
+
+.bc25:hover{
+    border: 1px solid transparent;
+    border-color: #6958D7;
+    background-color: #fff;
+}

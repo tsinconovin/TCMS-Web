@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xsi:schemaLocation="http://www.springframework.org/schema/beans
+   http://www.springframework.org/schema/beans/spring-beans.xsd">
+ 
+ 
+   <bean id="DataSource"
+       class="com.TSINCO.config.Config">
+ 
+       <property name="jTDS" value="net.sourceforge.jtds.jdbc.Driver" />
+       <property name="url" value="jdbc:jtds:sqlserver://SUCCESSFUL-PC/TSINCO.Passport" />
+       
+       <property name="username" value="nima" />
+       <property name="password" value="123456789" />
+      
+   </bean>
+ 
+</beans>

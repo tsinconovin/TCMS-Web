@@ -1,0 +1,118 @@
+.modal-custom {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    padding-top: 0.3rem;
+    padding-bottom: 1rem;
+    z-index: 1000;
+    animation-name: modal;
+}
+.chat-modal-custom {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    z-index: 1000;
+    animation-name: modal;
+}
+
+@keyframes modal {
+    0% {
+        top: 0%;
+    }
+    100% {
+        top: 50%;
+    }
+}
+
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+    z-index: 1000;
+}
+
+.modal__header {
+    padding: 0.5rem;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.37);
+}
+.modal__title {
+    color: #000000;
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 0;
+    line-height: 1.5;
+}
+.modal-check-icon {
+    font-size: 80px;
+    text-align: center;
+    margin-top: 10px;
+    color: #ec861c;
+}
+.select-modal-footer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+
+.select-modal-btn {
+    width: 148px;
+    height: 41px;
+    font-size: 17px;
+    border: none;
+    transition: .4s!important;
+}
+.modal-yes-btn {
+    background: #009764 0 0 no-repeat padding-box;
+    color: #fff;
+    margin-left: 15px;
+}
+.modal-no-btn {
+    background-color: #3e3b3b;
+    color: #fff;
+}
+.modal-yes-btn:focus {
+    outline: none;
+}
+.modal-no-btn:focus {
+    outline: none;
+}
+.modal__closeBtn {
+    border: none;
+    background-color: inherit;
+    font-size: 1.3rem;
+    cursor: pointer;
+}
+
+.modal__body {
+    margin-top: 1rem;
+}
+
+.modal__closeBtn:focus {
+    outline: none;
+}
+
+@media (max-width: 800px) {
+    .modal-custom {
+        width: 280px !important;
+        height: 192px !important;
+    }
+    .chat-modal-custom {
+        width: 357px !important;
+        height: 512px !important;
+    }
+
+    .modal__closeBtn {
+        position: relative;
+        left: -0.7rem;
+    }
+}
